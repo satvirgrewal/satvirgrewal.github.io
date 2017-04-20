@@ -42,7 +42,7 @@
       <div class="row">
         <div class="intro-text">
           <h1>Hello, I'm <span class="name">Satvir Grewal</span></h1>
-          <p style="text-align:justify">I am a problem solver at heart and developer by profession who develops softwares, web applications, strategies and a cheerful work environment.</p>
+          <p style="text-align:justify">I am a problem solver at<!-- <span class="fa fa-heart fa-2x animated pulse" style="color:red; size:80%"> </span> --> heart and developer by profession who develops softwares, web applications, strategies and a cheerful work environment.</p>
           <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
       </div>
     </div>
@@ -99,23 +99,29 @@
       <hr>
     </div>
     <div class="row">
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="95"> <span class="percent">95</span> </span>
-        <h4>HTML5</h4>
+    <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="78"> <span class="percent">78</span> </span>
+        <h4>Java/J2EE</h4>
       </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="85"> <span class="percent">85</span> </span>
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span> </span>
+        <h4>HTML5/CSS</h4>
+      </div>
+      <!-- <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="85"> <span class="percent">85</span> </span>
         <h4>CSS3</h4>
+      </div> -->
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="75"> <span class="percent">75</span> </span>
+        <h4>JavaScript</h4>
       </div>
       <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span> </span>
-        <h4>jQuery</h4>
+        <h4>Bootstrap</h4>
       </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span> </span>
-        <h4>WordPress</h4>
-      </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="70"> <span class="percent">70</span> </span>
+      <!-- <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="70"> <span class="percent">70</span> </span>
         <h4>Photoshop</h4>
+      </div> -->
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="95"> <span class="percent">95</span> </span>
+        <h4>SQL</h4>
       </div>
       <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="65"> <span class="percent">65</span> </span>
-        <h4>Illustrator</h4>
+        <h4>Data Warehousing</h4>
       </div>
     </div>
   </div>
@@ -124,7 +130,7 @@
 <div id="portfolio">
   <div class="container">
     <div class="section-title text-center center">
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
       <hr>
     </div>
     <div class="categories">
@@ -132,9 +138,10 @@
         <li>
           <ol class="type">
             <li><a href="#" data-filter="*" class="active">All</a></li>
-            <li><a href="#" data-filter=".web">Web Design</a></li>
-            <li><a href="#" data-filter=".app">App Development</a></li>
-            <li><a href="#" data-filter=".branding">Branding</a></li>
+            <!-- <li><a href="#" data-filter=".web">Web Design</a></li> -->
+            <li><a href="#" data-filter=".app">WebApp Development</a></li>
+            <li><a href="#" data-filter=".branding">Creative Designing</a></li>
+            <li><a href="#" data-filter=".dataAnalytics">Data Analytics</a></li>
           </ol>
         </li>
       </ul>
@@ -142,13 +149,25 @@
     </div>
     <div class="row">
       <div class="portfolio-items">
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
+        <div class="col-sm-6 col-md-3 col-lg-3 app">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/01-large.jpg" title="Project description" rel="prettyPhoto">
+            <div class="hover-bg"> <a href="img/portfolio/ShoppingCartVideo.mov" title="JavaScript based client side web application and has no requirements on the server. 
+            Cart supports PayPal and Google Wallet payment services. Technologies used: AngularJS, HTML, CSS, Bootstrap" rel="prettyPhoto">
               <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Web Design</small> </div>
-              <img src="img/portfolio/01-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+                <h4>Shopping Cart</h4>
+                <small>Shopping Cart with multiple payment services</small> </div>
+              <img style="margin-top:20px"src="img/portfolio/shoppingCartLogo.png" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 dataAnalytics">
+          <div class="portfolio-item" >
+            <div class="hover-bg" style="margin-left: auto; margin-right: auto;"> <a href="img/portfolio/rsz_dominicks-sites-in-chicago-suburbs-remain-empty.jpg" title="Designed and developed a Data Warehouse from scratch.
+Developed ETL framework and an interactive dashboard to analyze various store level and product level insights
+	Technologies Used: SQL, SSIS, SSAS, SQL, SSRS" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Dominick's Finer Food</h4>
+                <small>Store level and product level data analysis</small> </div>
+              <img style="margin:auto" src="img/portfolio/rsz_dominicks-sites-in-chicago-suburbs-remain-empty.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 app">
@@ -169,16 +188,30 @@
               <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
+        
+        <div class="col-sm-6 col-md-3 col-lg-3 dataAnalytics">
+          <div class="portfolio-item" >
+            <div class="hover-bg" style="margin-left: auto; margin-right: auto;"> <a href="img/portfolio/rsz_ueslogo.jpg" title="Performed data analysis on the planned and unplanned expenditure incurred by the UES
+Delivered detailed and graphic reports to the senior management based on the data analysis
+Technologies Used: AiM, SQL, Pivoting, LookUp, MS Excel
+" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Utilities & Energy Services Expenditure Analysis</h4>
+                <small>Analyzed the expenditure incurred on planned and unplanned service.</small> </div>
+              <img style="margin-top:35px" src="img/portfolio/rsz_1rsz_ueslogo.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        
+        <!-- <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/04-large.jpg" title="Project description" rel="prettyPhoto">
               <div class="hover-text">
                 <h4>Project Title</h4>
                 <small>Web Design</small> </div>
-              <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img style="margin:auto" src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 app">
+        </div> -->
+        <!-- <div class="col-sm-6 col-md-3 col-lg-3 app">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/05-large.jpg" title="Project description" rel="prettyPhoto">
               <div class="hover-text">
@@ -186,25 +219,28 @@
                 <small>App Development</small> </div>
               <img src="img/portfolio/05-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
-        </div>
+        </div> -->
         <div class="col-sm-6 col-md-3 col-lg-3 branding">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/06-large.jpg" title="Project description" rel="prettyPhoto">
+            <div class="hover-bg"> <a href="img/portfolio/BeFunky Collage.jpg" title="1. Digital Poster for 'Tie a Turban Day' event \n
+            2. Business Card for 'Cam Captures' photopraghy.
+            3. Snapchat filter for 'Tie a Turban Day' event" rel="prettyPhoto">
               <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Branding</small> </div>
+                <h4>Creative Designing</h4>
+                <small>Marketing Material</small> </div>
               <img src="img/portfolio/06-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 branding app">
+       <!--  <div class="col-sm-6 col-md-3 col-lg-3  app">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Project description" rel="prettyPhoto">
+            <div class="hover-bg"> <a href="img/portfolio/rsz_screen_shot_2017-04-20_at_21311_am.png" title="JavaScript based client side web application and has no requirements on the server. 
+            Cart supports PayPal and Google Wallet payment services." rel="prettyPhoto">
               <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>App Development, Branding</small> </div>
-              <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+                <h4>Shopping Cart</h4>
+                <small>Shopping Cart with multiple payment services</small> </div>
+              <img src="img/portfolio/rsz_screen_shot_2017-04-20_at_21311_am.png" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
-        </div>
+        </div> -->
         <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Project description" rel="prettyPhoto">
@@ -322,40 +358,41 @@
         <ul class="timeline">
           
           <!-- Education Section-->
-          
-          <li>
+          <li >
             <div class="timeline-image">
-              <h4>2010 <br>
+              <h4>2018 <br>
                 - <br>
-                2011 </h4>
+                2016 </h4>
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h4>Design University</h4>
-                <h4 class="subheading">Master Degree of Design</h4>
+                <h4>Texas A&M University, College Station</h4>
+                <h4 class="subheading">M.S., Management Information Systems</h4>
               </div>
               <div class="timeline-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
+                <p>Desire to learn and work with the best in a field and to experience a totally different culture and education system got me to the Aggieland. Working on expanding the technical and soft skills and proud member of 'Fightin' Texas Aggie Class of 2018', Whoop!!! </p>
               </div>
             </div>
           </li>
+          
           <li class="timeline-inverted">
             <div class="timeline-image">
-              <h4>2007 <br>
+              <h4>2013 <br>
                 - <br>
-                2010 </h4>
+                2009 </h4>
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h4>Design University</h4>
-                <h4 class="subheading">Bachelor Degree of Design</h4>
+                <h4>Thapar University, Punjab</h4>
+                <h4 class="subheading">B.E., Electronics & Communications</h4>
               </div>
               <div class="timeline-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
+                <p>Got selected to the premier institute of India after securing a rank in top 1% of all the engineering school aspirants. Here, I met many of my best friends, got opportunities to give back to the society, participate in sports and cultural activities, and even managed to graduate with flying colors.  </p>
               </div>
             </div>
           </li>
-          <li>
+          
+          <!-- <li>
             <div class="timeline-image">
               <h4>2004 <br>
                 - <br>
@@ -370,7 +407,7 @@
                 <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
               </div>
             </div>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
@@ -385,20 +422,20 @@
     </div>
     <div class="col-md-8 col-md-offset-2">
       <div class="col-md-4"> <i class="fa fa-map-marker fa-2x"></i>
-        <p>4321 California St,<br>
-          San Francisco, CA 12345</p>
+        <p>401 Anderson St,<br>
+          College Station, TX 77840</p>
       </div>
       <div class="col-md-4"> <i class="fa fa-envelope-o fa-2x"></i>
-        <p>info@company.com</p>
+        <p>satvirsgrewal@tamu.edu</p>
       </div>
       <div class="col-md-4"> <i class="fa fa-phone fa-2x"></i>
-        <p> +1 123 456 1234</p>
+        <p> +1 979 985 1108</p>
       </div>
       <div class="clearfix"></div>
     </div>
     <div class="col-md-8 col-md-offset-2">
-      <h3>Leave me a message</h3>
-      <form name="sentMessage" id="contactForm" novalidate>
+      <!-- <h3>Leave me a message</h3> -->
+      <!-- <form name="sentMessage" id="contactForm" novalidate>
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
@@ -419,15 +456,12 @@
         </div>
         <div id="success"></div>
         <button type="submit" class="btn btn-default">Send Message</button>
-      </form>
+      </form> -->
       <div class="social">
         <ul>
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-          <li><a href="#"><i class="fa fa-github"></i></a></li>
-          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="https://www.facebook.com/satvirg"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://github.com/satvirgrewal"><i class="fa fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/satvirgrewal/"><i class="fa fa-linkedin"></i></a></li>
         </ul>
       </div>
     </div>
@@ -436,7 +470,7 @@
 <div id="footer">
   <div class="container text-center">
     <div class="fnav">
-      <p>Copyright &copy; 2016 John Doe. Designed by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
+      <p>Copyright &copy; 2017 Satvir Singh Grewal</p>
     </div>
   </div>
 </div>
