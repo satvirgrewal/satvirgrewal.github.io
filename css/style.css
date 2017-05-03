@@ -267,10 +267,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 ul.cat li {
 	display: inline-block;
+	/*padding: 6px 14px;*/
 }
 ol.type li {
 	display: inline-block;
 	margin-left: 20px;
+	padding: 10px 14px;
 }
 ol.type li a {
 	background: #7bc3d1;
